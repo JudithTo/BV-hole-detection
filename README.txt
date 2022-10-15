@@ -10,12 +10,6 @@ We proposed a novel UAS-DL-based framework that can be utilized in two represent
 
 Description
 
-python predict.py -pt small -mp ./logs/modelnewhe1215_final.pth --input ./img/small --output ./outsmall
+python predict.py -pt test_image_folder -mp model --input input_image_path --output output_path
 
-python predict.py
-
-Plant disease image data are available at the following link：https://xf-data-bucket.oss-cn-hangzhou.aliyuncs.com/data.rar
-
-链接：https://pan.baidu.com/s/1rKW3Sn3MBdKnfy3dMpVgag?pwd=2x65 
-提取码：2x65 
---来自百度网盘超级会员V4的分享
+Trained YOLOv4 model link：https://pan.baidu.com/s/1rKW3Sn3MBdKnfy3dMpVgag?pwd=2x65 
